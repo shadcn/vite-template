@@ -13,7 +13,7 @@ import { Button } from "@/components/ui/button";
 
 function App() {
   return (
-    <div class="h-screen w-screen flex items-center justify-center">
+    <div className="h-screen w-screen flex items-center justify-center">
       <AlertDialog>
         <AlertDialogTrigger asChild>
           <Button variant="outline">Show Dialog</Button>
